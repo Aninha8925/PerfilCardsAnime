@@ -1,0 +1,193 @@
+.card1 {
+    background-image:linear-gradient(rgb(185, 185, 185) 30%, rgb(66, 66, 66) 30%);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    transition: 1s;
+}
+
+.card2 {
+    background-image:linear-gradient(rgb(122, 184, 93) 30%, rgb(66, 66, 66) 30%);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    transition: 1s;
+}
+
+.card3 {
+    background-image:linear-gradient(rgb(49, 42, 131) 30%, rgb(66, 66, 66) 30%);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    transition: 1s;
+}
+
+.card4 {
+    background-image:linear-gradient(rgb(206, 28, 81) 30%, rgb(66, 66, 66) 30%);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    transition: 1s;
+}
+
+.card5 {
+    background-image:linear-gradient(rgb(255, 255, 255) 30%, rgb(66, 66, 66) 30%);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    transition: 1s;
+}
+
+.card6 {
+    background-image:linear-gradient(rgb(236, 130, 0) 30%, rgb(66, 66, 66) 30%);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    transition: 1s;
+}
+
+.card1 button {
+    background-color:rgb(185, 185, 185);
+    color:rgb(96, 96, 96);
+}
+
+.card1 button:hover {
+    background-color:rgb(96, 96, 96);
+    color:rgb(185, 185, 185);
+}
+.card2 button {
+    background-color: rgb(122, 184, 93);
+    color:  rgb(55, 84, 41);
+}
+
+.card2 button:hover{
+    background-color: rgb(55, 84, 41);
+    color:  rgb(122, 184, 93);
+}
+.card3 button {
+    background-color: rgb(49, 42, 131);
+    color:  rgb(16, 14, 48);
+}
+
+.card3 button:hover {
+    background-color:rgb(16, 14, 48);
+    color: rgb(49, 42, 131);
+}
+.card4 button {
+    background-color: rgb(206, 28, 81);
+    color: rgb(83, 14, 35);
+}
+
+.card4 button:hover {
+    background-color:rgb(83, 14, 35);
+    color:  rgb(206, 28, 81);
+}
+.card5 button {
+    background-color: rgb(255, 255, 255);
+}
+
+.card5 button:hover {
+    background-color: black;
+    color: white;
+}
+.card6 button {
+    background-color: rgb(236, 130, 0) ;
+    color:  rgb(94, 54, 6);
+}
+
+.card6 button:hover {
+    background-color:  rgb(94, 54, 6);
+    color: rgb(236, 130, 0) ;
+}
+
+.card1:hover {
+    margin-top: -2vw;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+.card2:hover {
+    margin-top: -2vw;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+.card3:hover {
+    margin-top: -2vw;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+.card4:hover {
+    margin-top: -2vw;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+.card5:hover {
+    margin-top: -2vw;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+.card6:hover {
+    margin-top: -2vw;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+h4 {
+    font-size: 2vw;
+    margin: 0; /* Remove a margem padrão */
+}
+
+.card1 h4, .card2 h4, .card3 h4, .card4 h4, .card5 h4, .card6 h4 {
+    margin-bottom: 10px; /* Adiciona um pequeno espaçamento entre o nome e o resumo */
+    margin-top: 8vw;
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p {
+    margin: 0; /* Remove qualquer margem do resumo */
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 6vw;
+    height: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+

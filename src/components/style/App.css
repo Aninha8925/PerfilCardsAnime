@@ -1,0 +1,44 @@
+.App-header {
+  background-color: #1c1e22;
+  min-height: 110vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h3 {
+  margin: 5vw;
+  margin-left: 12vw;
+  text-align: left;
+  width: 80%;
+}
+
+.Card-Content {
+  width: 99vw;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  text-align: center;
+  align-items: center;
+}
+
+.p1  {
+  display: flex;
+  gap: 3vw;
+}
+
+.p2  {
+  display: flex;
+  gap: 3vw;
+}
+
+img {
+  width: 8vw;
+  height: 14vh;
+  border-radius: 50vw;
+  position: absolute;
+  margin-bottom: 15vw;
+}

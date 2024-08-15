@@ -1,0 +1,143 @@
+.Modal-Content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.Modal {
+    background-color: #D9D9D9;
+    border-radius: 20vw;
+    display: flex;
+    width: 80%;
+    height: 50%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Lado-E {
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(  #D9D9D9 40%, rgb(46, 46, 46) 40%);
+    width: 53vw;
+    padding: 1vw;
+    border-radius: 2vw 0vw 0vw 2vw;
+    color: white;
+}
+
+.Lado-E .img {
+    display: flex;
+    position: absolute;
+    margin: 1vw;
+    margin-top: 4vw;
+}
+
+.Lado-E img {
+   width: 10vw;
+   height:17vh;
+   margin: 1vw;
+}
+
+.Lado-E h4 {
+    display: flex;
+    position: absolute;
+    margin-top:13vw;
+    margin-left: 3vw;
+}
+
+.Lado-D {
+    background-image:linear-gradient( #D9D9D9 40%,rgb(185, 185, 185) 40%);
+    padding: 1vw;
+    border-radius: 0vw 2vw 2vw 0vw;
+    color: rgb(66, 66, 66);
+    
+}
+
+.Lado-D .desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.Lado-D h3{
+    font-size: 20px;
+}
+
+.idade h4{
+    font-size: 18px;
+}
+
+.hobby h4{
+    font-size: 18px;
+}
+
+.prof h4{
+    font-size: 18px;
+    
+}
+
+.Lado-D .desc .idade{
+    display: flex;
+    flex-direction: column;
+}
+.Lado-D .desc .hobby{
+    display: flex;
+    flex-direction: column;
+}
+
+.Lado-D .desc .prof{
+    display: flex;
+    flex-direction: column;
+}
+
+.Lado-D .desc div {
+    display: flex;
+}
+
+.Resumo {
+    margin-top: 5vw;
+}
+
+.butao {
+    margin-top:2vw;
+    text-align: center;
+}
+
+.butao button {
+    background-color: #6fc874;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.butao button:hover {
+    background-color: #538e56
+}
+
+.close-button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 101;
+}
+
